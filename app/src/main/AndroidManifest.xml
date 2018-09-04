@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thiagocury.eti.br.colorpalettes" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TelaAbertura"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Amber"
+            android:label="@string/title_activity_amber"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Blue"
+            android:label="@string/title_activity_blue"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".BlueGray"
+            android:label="@string/title_activity_blue_gray"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Brown"
+            android:label="@string/title_activity_brown"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Cyan"
+            android:label="@string/title_activity_cyan"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".DeepOrange"
+            android:label="@string/title_activity_deep_orange"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".DeepPurple"
+            android:label="@string/title_activity_deep_purple"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Green"
+            android:label="@string/title_activity_green"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Gray"
+            android:label="@string/title_activity_gray"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Indigo"
+            android:label="@string/title_activity_indigo"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".LightBlue"
+            android:label="@string/title_activity_light_blue"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".LightGreen"
+            android:label="@string/title_activity_light_green"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Lime"
+            android:label="@string/title_activity_lime"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Orange"
+            android:label="@string/title_activity_orange"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Pink"
+            android:label="@string/title_activity_pink"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Purple"
+            android:label="@string/title_activity_purple"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Red"
+            android:label="@string/title_activity_red"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Teal"
+            android:label="@string/title_activity_teal"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".Yellow"
+            android:label="@string/title_activity_yellow"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+        <activity
+            android:name=".TelaSobre"
+            android:label="@string/title_activity_tela_sobre"
+            android:parentActivityName=".TelaAbertura"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thiagocury.eti.br.colorpalettes.TelaAbertura" />
+        </activity>
+    </application>
+
+</manifest>
